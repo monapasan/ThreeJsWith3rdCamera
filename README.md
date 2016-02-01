@@ -18,3 +18,5 @@ npm start
 
 Then open [localhost:8080](http://localhost:8080/).
 
+## Control
+(W, A, Q, E = Move, A,D = Look around)
