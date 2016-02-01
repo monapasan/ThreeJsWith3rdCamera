@@ -1,0 +1,1485 @@
+newmtl Panel_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Body Panel copy.jpg
+
+newmtl Body_Line
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Body Line copy.jpg
+
+newmtl LT_Arm_Track_Body
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Track copy.jpg
+
+newmtl Body_Track_Inside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Track Inside.jpg
+
+newmtl Body_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Body copy1.jpg
+
+newmtl RT_Arm_Track_Body
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Track copy.jpg
+
+newmtl Speaker_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl Speaker
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl On/Off_Switch_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl Charger_Slot_Casing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl Charger_Slots
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Unit_On_LED_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl Unit_On_LED
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0.364706 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Unit_StandBy_LED_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl Unit_StandBy_LED
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0.419608
+Ks 0 0 0
+Km 0.02
+
+newmtl Low_Power_LED_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl Low_Power_LED
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.458824 0 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Panel_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Power Panel copy.jpg
+
+newmtl Full_Charge_Light9
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 0 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light8
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 0 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light7
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 0 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light6
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light5
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light4
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light3
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 1 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 1 0
+Ks 0 0 0
+Km 0.02
+
+newmtl Full_Charge_Light1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 1 0
+Ks 0 0 0
+Km 0.02
+
+newmtl LT_Arm_Slider
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Sliderz copy.jpg
+
+newmtl LT_Arm_Track_Inside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Track Inside.jpg
+
+newmtl LT_Arm_Track
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Track copy.jpg
+
+newmtl LT_Arm_Joint
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm joint and extender copy.jpg
+
+newmtl RT_Arm_Slider
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Sliderz copy.jpg
+
+newmtl RT_Arm_Track_Inside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Track Inside.jpg
+
+newmtl RT_Arm_Track
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm Track copy.jpg
+
+newmtl RT_Arm_Joint
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arm joint and extender copy.jpg
+
+newmtl LT_Arm_Joint_Housing_Cover
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl LT_Arm_Joint_Housing_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.458824 0.458824 0.458824
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl LT_Arm_Joint_Housing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl LT_Arm_Joint_Housing_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl LT_Arm_Extender_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.686275 0.686275 0.686275
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Arm joint and extender copy.jpg
+
+newmtl LT_Arm_Extender_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.686275 0.686275 0.686275
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Arm joint and extender copy.jpg
+
+newmtl LT_Hand
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl RT_Arm_Joint_Housing_Cover
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl RT_Arm_Joint_Housing_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl RT_Arm_Joint_Housing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl RT_Arm_Joint_Housing_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Arms copy.jpg
+
+newmtl RT_Arm_Extender_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.686275 0.686275 0.686275
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Arm joint and extender copy.jpg
+
+newmtl RT_Arm_Extender_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.686275 0.686275 0.686275
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Arm joint and extender copy.jpg
+
+newmtl RT_Hand
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl Neck_Metal
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Neck copy.jpg
+
+newmtl Neck_Metal_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Neck copy.jpg
+
+newmtl Neck_Metal_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Neck copy.jpg
+
+newmtl Neck_Metal_4
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Neck copy.jpg
+
+newmtl Neck_Metal_3
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Neck copy.jpg
+
+newmtl Head_Ball_Joint
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Brainstem copy.jpg
+
+newmtl Mid_Head_Metal_5
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Brainstem copy.jpg
+
+newmtl Mid_Head_Metal_4
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Brainstem copy.jpg
+
+newmtl Mid_Head_Metal_3
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Brainstem copy.jpg
+
+newmtl Mid_Head_Metal_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Brainstem copy.jpg
+
+newmtl Mid_Head_Metal_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Brainstem copy.jpg
+
+newmtl LT_Eye_Metal_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Eye_Casing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Eye_Screws
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Eye_Lens_Casing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Eye_Lens
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Eye_Metal_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Eye_Metal_3
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Hose_Connector_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Hose_Casing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Hose_Connector_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl LT_Hose
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Eye_Metal_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Eye_Casing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Eye_Screws
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Eye_Lens_Casing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Eye_Lens
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Eye_Metal_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Eye_Metal_3
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Hose_Connector_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Hose_Casing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Hose_Connector_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Hose
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Eyes copy.jpg
+
+newmtl RT_Hand_Finger_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl RT_Hand_Finger_1_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl RT_Hand_Finger_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl RT_Hand_Finger_2_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl RT_Hand_Thumb_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl RT_Hand_Thumb_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl LT_Hand_Finger_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl LT_Hand_Finger_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl LT_Hand_Finger_2_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl LT_Hand_Finger_1_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl LT_Hand_Thumb_1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl RT_Hatch_Big
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Top Panels and Eyebrows copy.jpg
+
+newmtl RT_Hatch_Small
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Top Panels and Eyebrows copy.jpg
+
+newmtl LT_Hatch_Big
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Top Panels and Eyebrows copy.jpg
+
+newmtl RightUpperLeg
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl RightMiddleLegJoint2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl RightMiddleLegJoint2inside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl RightMiddleLeg
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl RightMiddleLegJoint1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl RightMiddleLegJoint1inside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl RightLegEnd
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl RtTread
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RtTreadBottomPiston
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RtTreadBottomPistonExt
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RtTreadBottomPistonExt1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RtTreadTopPiston
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RtTreadTopPistonExt
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RtTreadTopPistonExt1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RightTreadConnector
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RightTreadConnectorJoint
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RightTreadConnectorJointInside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RightTreadPistonsHousing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RightTreadPistonsHousingJoint
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RightTreadPistonsHousingJointIn
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RT_EyeBrow
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Top Panels and Eyebrows copy.jpg
+
+newmtl LT_EyeBrow
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Top Panels and Eyebrows copy.jpg
+
+newmtl LT_Hand_Thumb_2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.686275 0.686275 0.686275
+Km 0.02
+map_Kd /Maps/MUDDe Hands copy.jpg
+
+newmtl LT_Hatch_Small
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Top Panels and Eyebrows copy.jpg
+
+newmtl LeftUpperLeg
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl LeftMiddleLegJoint2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl LeftMiddleLegJoint2inside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl LeftMiddleLeg
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl LeftMiddleLegJoint1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl LeftMiddleLegJoint1inside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl LeftLegEnd
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Legs copy.jpg
+
+newmtl LtTread
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LtTreadBottomPiston
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LtTreadBottomPistonExt
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LtTreadBottomPistonExt1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LtTreadTopPiston
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LtTreadTopPistonExt
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LtTreadTopPistonExt1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LeftTreadConnector
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LeftTreadConnectorJoint
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LeftTreadConnectorJointInside
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LeftTreadPistonsHousing
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LeftTreadPistonsHousingJoint
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl LeftTreadPistonsHousingJointIns
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Treadz copy.jpg
+
+newmtl RtRollerBackBottom
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
+newmtl RtRollerFrontBottom
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
+newmtl RtRollerBackTop
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
+newmtl LtRollerFrontBottom
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
+newmtl LtRollerBackBottom
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
+newmtl LtRollerBackTop
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
+newmtl On/Off_Switch
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.701961 0 0
+Ks 0 0 0
+Km 0.02
+
+newmtl On/Off
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Km 0.02
+
+newmtl RtRollerFrontTop
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
+newmtl LtRollerFrontTop
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Km 0.02
+map_Kd /Maps/MUDDe Rollerz copy.jpg
+
