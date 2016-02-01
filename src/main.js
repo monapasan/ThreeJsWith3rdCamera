@@ -36,6 +36,10 @@ var healthCube, lastHealthPickup = 0;
 var map = [ // 1  2  3  4  5  6  7  8  9
            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,], // 0
            [1, 1, 0, 0, 0, 0, 0, 1, 1, 1,], // 1
+		   [1, 1, 0, 0, 2, 0, 0, 0, 0, 1,], // 2
+		   [1, 1, 0, 0, 2, 0, 0, 0, 0, 1,], // 2
+		   [1, 1, 0, 0, 2, 0, 0, 0, 0, 1,], // 2
+		   [1, 1, 0, 0, 2, 0, 0, 0, 0, 1,], // 2
            [1, 1, 0, 0, 2, 0, 0, 0, 0, 1,], // 2
            [1, 0, 0, 0, 0, 2, 0, 0, 0, 1,], // 3
            [1, 0, 0, 2, 0, 0, 2, 0, 0, 1,], // 4
@@ -136,14 +140,14 @@ function loadObject(){
     var aiMaterial = new T.MeshBasicMaterial({map: T.ImageUtils.loadTexture('resources/eye.png', T.SphericalReflectionMapping)});
     loader.load('resources/Eve.obj',(obj)=>{
       obj.traverse((child)=>{
-          if( child instanceof T.Mesh && i){
-              child.material = aiMaterial;//new T.MeshPhongMaterial( { color: '#dcdcdc' } );
+          if( child instanceof T.Mesh){
+              child.material = new T.MeshPhongMaterial( { color: '#ede5e5', wireframe: false, shading:T.FlatShading,shininess:30});
               var labmer = new T.MeshLambertMaterial(
                 {
-                  color: 0xFFFCFF,
-                //   wireframe: true
+                  color: '#e2edda',
+                  wireframe: true
                 });
-                i = false;
+				// child.material = labmer;
           }
       });
       obj.scale.set(0.15,0.15,0.15);
@@ -157,7 +161,7 @@ function loadObject(){
 
 function init () {
     camera = new T.PerspectiveCamera( 60, ASPECT, 1, 100000 );
-    camera.position.y = UNITSIZE * 1;
+    camera.position.y = UNITSIZE * 2;
     camera.position.x = UNITSIZE * 2;
     camera.position.z = UNITSIZE * 5;
     clock = new T.Clock();
@@ -179,6 +183,7 @@ function init () {
     document.addEventListener('mousemove', onDocumentMouseMove, false);
     document.addEventListener('keydown', onKeyDown, false);
     document.addEventListener('keyup', onKeyUp, false);
+	document.addEventListener('click', createBullet, false);
 
     loadObject();
 
@@ -201,6 +206,33 @@ function init () {
     document.body.appendChild(stats.domElement);
 
 }
+var bullets = [];
+var sphereMaterial = new T.MeshLambertMaterial({color: '#0e9de3'});
+var sphereGeo = new T.SphereGeometry(10, 10, 10);
+
+function createBullet(obj) {
+	obj = eve;
+	var sphere = new T.Mesh(sphereGeo, sphereMaterial);
+	sphere.position.set(obj.position.x, obj.position.y * 0.8, obj.position.z);
+	var raycaster = new T.Raycaster();
+	// if (obj instanceof T.Camera) {
+		var vector = new T.Vector3(mouse.x, mouse.y, 1);
+		raycaster.setFromCamera( mouse, camera );
+
+		// projector.unprojectVector(vector, obj);
+		// sphere.ray = new t.Ray(
+		// 		obj.position,
+		// 		vector.subSelf(obj.position).normalize()
+		// );
+		sphere.ray = raycaster.ray;
+	// }
+	sphere.owner = obj;
+
+	bullets.push(sphere);
+	scene.add(sphere);
+
+	return sphere;
+}
 
 function setupScene() {
 	var units = mapW;
@@ -208,7 +240,7 @@ function setupScene() {
 	// Geometry: floor
 	var floor = new T.Mesh(
 			new T.BoxGeometry(units * UNITSIZE, 10, units * UNITSIZE),
-			new T.MeshLambertMaterial({color: '#ad7a02'})
+			new T.MeshLambertMaterial({map: T.ImageUtils.loadTexture('resources/Texture/mudde.jpg')})
 	);
 	scene.add(floor);
 
@@ -295,12 +327,23 @@ function draw(){
     if(!eve){
         return;
     }
-    var delta = clock.getDelta();
+	var delta = clock.getDelta();
+	var speed = delta * BULLETMOVESPEED;
+	for (var i = bullets.length-1; i >= 0; i--) {
+		var b = bullets[i], p = b.position, d = b.ray.direction;
+		if (checkWallCollision(p)) {
+			bullets.splice(i, 1);
+			scene.remove(b);
+			continue;
+		}
+		b.translateX(speed * d.x);
+		//bullets[i].translateY(speed * bullets[i].direction.y);
+		b.translateZ(speed * d.z);
+	}
     proceedInteraction(delta);
     // camera.position.x = eve.position.x + UNITSIZE * mouse.x;
     // camera.position.z = eve.position.z + UNITSIZE * mouse.y;
 
-    camera.lookAt(eve.position);
     renderer.render(scene, camera);
 }
 
