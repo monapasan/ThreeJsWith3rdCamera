@@ -1,6 +1,6 @@
-### Trying it out !
+# Trying it out !
 
-# If you don't have npm (Node Package Manager), you should first install server side Js [Node](https://nodejs.org/en/)
+#### If you don't have npm (Node Package Manager), you should first install server side Js [Node](https://nodejs.org/en/)
 
 ## Install with three lines
 
