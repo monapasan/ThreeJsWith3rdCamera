@@ -1,3 +1,7 @@
+### Trying it out !
+
+# If you don't have npm (Node Package Manager), you should first install server side Js [Node](https://nodejs.org/en/)
+
 ## Install with three lines
 
 Just `git clone` & `npm install`:
@@ -8,9 +12,12 @@ cd ThreeJsWith3rdCamera
 npm install
 ```
 
+This will install all dependencies, that you need for running the game.
+
+
 ## Then use it with one more
 
-Run the dev server:
+Run the dev server (Webpack):
 
 ```
 npm start
@@ -19,4 +26,4 @@ npm start
 Then open [localhost:8080](http://localhost:8080/).
 
 ## Control
-(W, A, Q, E = Move, A,D = Look around)
+(W, A, Q, E = Move, A,D = Look around, Mouse Click - shooting)
